@@ -1,17 +1,16 @@
-import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
+import type { FC } from 'react'
 
-const Home: NextPage = () => {
+const Other: FC = () => {
   return (
     <>
       <Head>
         <title>ssaitho portfolio</title>
       </Head>
-      <div>Home</div>
+      <p>coming soon</p>
     </>
   )
 }
 
-export default Home
+export default Other
