@@ -1,6 +1,4 @@
-import Head from 'next/head'
 import Image from 'next/image'
-
 import type { FC } from 'react'
 import { LocationOnIcon } from '@/components/Icon'
 

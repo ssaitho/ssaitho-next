@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import Profile from '@/components/Profile/profile'
-import Tab from '@/components/Tab/tab'
+import Tabs from '@/components/Tabs/Tabs'
 
 type Props = {
   children?: React.ReactNode
@@ -15,8 +15,8 @@ const Layout: FC<Props> = ({ children }) => {
         <Profile />
       </section>
       <section>
-        <Tab />
-        {children}
+        <Tabs />
+        <div className='mt-8'>{children}</div>
       </section>
     </main>
   )
