@@ -26,7 +26,7 @@ const tabsLink: TabLink[] = [
   },
 ]
 
-const tabsClass = 'flex border-b border-gray-200 text-sm'
+const tabsClass = 'font-montserrat flex border-b border-gray-200 text-sm'
 const activeClass = 'w-full border-b-2 border-blue-500 p-2 text-center font-medium text-blue-500'
 const inactiveClass =
   'w-full border-b-2 border-transparent p-2 text-center font-medium text-gray-400'

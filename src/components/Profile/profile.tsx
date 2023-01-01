@@ -5,8 +5,8 @@ import { LocationOnIcon } from '@/components/Icon'
 const profileClass = 'w-full flex flex-col items-center'
 const profileImageClass =
   'h-32 w-32 overflow-hidden rounded-full border border-gray-200 object-cover'
-const profileTitleClass = 'my-4 text-2xl font-bold'
-const locationClass = 'flex items-center text-gray-500 text-sm'
+const profileTitleClass = 'font-montserrat my-4 text-2xl font-bold'
+const locationClass = 'font-montserrat flex items-center text-gray-500 text-sm'
 
 const Profile: FC = () => {
   return (

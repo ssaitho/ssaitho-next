@@ -15,7 +15,7 @@ export interface Props {
 }
 
 const listItemClass = 'mb-8 flex last:mb-0'
-const listItemImgWrapClass = 'mr-4 min-w-[56px]'
+const listItemImageWrapClass = 'mr-4 min-w-[56px]'
 const listItemTitleClass = 'mb-2 text-sm font-bold'
 const listImgTextClass = 'mt-2 text-sm leading-normal'
 const tagClass = 'mr-2 last:mr-0'
@@ -23,7 +23,7 @@ const tagClass = 'mr-2 last:mr-0'
 const ListItem: FC<Props> = ({ src, title, tags, text }) => {
   return (
     <div className={listItemClass}>
-      <div className={listItemImgWrapClass}>
+      <div className={listItemImageWrapClass}>
         <Image src={src} width={56} height={56} alt={title} />
       </div>
       <div>

@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         notosansjp: ['Noto Sans JP'],
+        montserrat: ['Montserrat'],
       },
     },
   },
