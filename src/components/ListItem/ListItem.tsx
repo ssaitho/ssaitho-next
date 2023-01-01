@@ -12,14 +12,16 @@ export interface Props {
 
 const ListItem: FC<Props> = ({ src, title, tag, text }) => {
   return (
-    <>
-      <div>
-        <Image src={src} width={56} height={56} alt='hoge' />
-        <h2>{title}</h2>
-        <p>{tag}</p>
-        <p>{text}</p>
+    <div className='mb-8 flex last:mb-0'>
+      <div className='mr-4'>
+        <Image src={src} width={56} height={56} alt={title} />
       </div>
-    </>
+      <div>
+        <h2 className='mb-2 text-sm font-bold'>{title}</h2>
+        <p>{tag}</p>
+        <p className='mt-2 text-sm leading-normal'>{text}</p>
+      </div>
+    </div>
   )
 }
 
