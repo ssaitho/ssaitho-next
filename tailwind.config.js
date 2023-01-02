@@ -9,6 +9,11 @@ module.exports = {
         notosansjp: ['Noto Sans JP'],
         montserrat: ['Montserrat'],
       },
+      colors: {
+        github: { default: '#F5F4F4', hover: '#EDEBEB' },
+        twitter: { default: '#EEF8FF', hover: '#E5EFF8' },
+        qiita: { default: '#EEFAE6', hover: '#E8F4DF' },
+      },
     },
   },
   plugins: [],

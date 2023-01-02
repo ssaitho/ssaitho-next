@@ -2,8 +2,8 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import ListItem from '@/components/ListItem/ListItem'
 
-type StaticImageData = { src: string; height: number; width: number; blurDataURL?: string }
-const Home: NextPage = () => {
+export type StaticImageData = { src: string; height: number; width: number; blurDataURL?: string }
+export const Home: NextPage = () => {
   const ListItems: {
     id: number
     src: string | StaticImageData

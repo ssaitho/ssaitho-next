@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import type { FC } from 'react'
+import React, { FC } from 'react'
 import Tag from '@/components/Tag/Tag'
 
-type StaticImageData = { src: string; height: number; width: number; blurDataURL?: string }
+export type StaticImageData = { src: string; height: number; width: number; blurDataURL?: string }
 
 export interface Props {
   src: string | StaticImageData

@@ -1,6 +1,6 @@
-import type { FC } from 'react'
+import React, { FC } from 'react'
 
-type Props = {
+export type Props = {
   className?: string
   text: string
 }

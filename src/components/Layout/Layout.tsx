@@ -2,7 +2,7 @@ import React, { FC } from 'react'
 import Profile from '@/components/Profile/Profile'
 import Tabs from '@/components/Tabs/Tabs'
 
-type Props = {
+export type Props = {
   children?: React.ReactNode
 }
 
