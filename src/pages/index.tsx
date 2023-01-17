@@ -16,7 +16,7 @@ export const Home: NextPage = () => {
   }[] = [
     {
       id: 1,
-      src: '/images/img_profile.jpg',
+      src: '/images/img_top_01.png',
       title: 'デザインシステムの構築',
       tags: [
         { id: 1, skill: 'React.js' },
@@ -30,7 +30,7 @@ export const Home: NextPage = () => {
     },
     {
       id: 2,
-      src: '/images/img_profile.jpg',
+      src: '/images/img_top_02.png',
       title: 'カートシステムのフロントエンド開発',
       tags: [
         { id: 1, skill: 'React.js' },
@@ -44,7 +44,7 @@ export const Home: NextPage = () => {
     },
     {
       id: 3,
-      src: '/images/img_profile.jpg',
+      src: '/images/img_top_03.png',
       title: 'UI/UXデザイナーの経験を活かした施策の提案',
       tags: [
         { id: 1, skill: 'React.js' },
