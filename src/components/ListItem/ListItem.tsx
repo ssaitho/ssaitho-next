@@ -16,7 +16,7 @@ export interface Props {
 
 const listItemClass = 'mb-8 flex last:mb-0'
 const listItemImageWrapClass = 'mr-4 min-w-[56px]'
-const listItemTitleClass = 'mb-2 text-sm font-bold'
+const listItemTitleClass = 'mb-2 text-base font-bold'
 const listImgTextClass = 'mt-2 text-sm leading-normal'
 const tagClass = 'mr-2 last:mr-0'
 

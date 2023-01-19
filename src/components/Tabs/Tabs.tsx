@@ -17,8 +17,8 @@ const tabsLink: TabLink[] = [
     label: 'Photo',
   },
   {
-    href: '/youtube',
-    label: 'Youtube',
+    href: '/blog',
+    label: 'Blog',
   },
   {
     href: '/other',
