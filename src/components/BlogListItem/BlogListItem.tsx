@@ -20,7 +20,13 @@ const BlogListItem: FC<Props> = ({ id, title, date }) => {
       <div className={bloglistItemImageWrapClass}>
         <Link href={`/posts/${id}`}>
           <a>
-            <Image src={'/images/img_blog_01.png'} width={56} height={56} alt={title} />
+            <Image
+              quality={100}
+              src={'/images/img_blog_01.png'}
+              width={56}
+              height={56}
+              alt={title}
+            />
           </a>
         </Link>
       </div>

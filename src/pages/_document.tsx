@@ -1,6 +1,7 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
 const fontFamilyClass = 'font-notosansjp'
+const themeClass = 'dark:bg-gray-900'
 
 const MyDocument = () => {
   return (
@@ -17,7 +18,7 @@ const MyDocument = () => {
           rel='stylesheet'
         ></link>
       </Head>
-      <body className={fontFamilyClass}>
+      <body className={`${fontFamilyClass} ${themeClass}`}>
         <Main />
         <NextScript />
       </body>

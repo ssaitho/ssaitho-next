@@ -24,7 +24,7 @@ const ListItem: FC<Props> = ({ src, title, tags, text }) => {
   return (
     <div className={listItemClass}>
       <div className={listItemImageWrapClass}>
-        <Image src={src} width={56} height={56} alt={title} />
+        <Image quality={100} src={src} width={56} height={56} alt={title} />
       </div>
       <div>
         <h2 className={listItemTitleClass}>{title}</h2>

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import type { FC } from 'react'
 
-const Photo: FC = () => {
+const Works: FC = () => {
   return (
     <>
       <Head>
@@ -13,4 +13,4 @@ const Photo: FC = () => {
   )
 }
 
-export default Photo
+export default Works

@@ -13,8 +13,8 @@ const tabsLink: TabLink[] = [
     label: 'Home',
   },
   {
-    href: '/photo',
-    label: 'Photo',
+    href: '/works',
+    label: 'Works',
   },
   {
     href: '/blog',
@@ -26,7 +26,7 @@ const tabsLink: TabLink[] = [
   },
 ]
 
-const tabsClass = 'font-montserrat flex border-b border-gray-200 text-sm'
+const tabsClass = 'font-montserrat flex border-b border-gray-200 dark:border-gray-600 text-sm'
 const activeClass = 'w-full border-b-2 border-blue-500 p-2 text-center font-medium text-blue-500'
 const inactiveClass =
   'w-full border-b-2 border-transparent p-2 text-center font-medium text-gray-400'

@@ -6,7 +6,7 @@ export type Props = {
   children?: React.ReactNode
 }
 
-const mainClass = 'm-auto max-w-[672px] px-8 pt-16'
+const mainClass = 'm-auto max-w-[672px] px-8 p-16'
 
 const Layout: FC<Props> = ({ children }) => {
   return (

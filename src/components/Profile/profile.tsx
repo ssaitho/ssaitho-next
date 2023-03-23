@@ -1,11 +1,14 @@
 import Image from 'next/image'
 import React, { FC } from 'react'
+import { ChangeThemeButton } from '@/components/ChangeThemeButton/ChangeThemeButton'
 import { LocationOnIcon } from '@/components/Icon'
 import IconButton from '@/components/IconButton/IconButton'
 
 const profileClass = 'w-full flex flex-col items-center'
+const profileImageWrapClass = 'relative'
 const profileImageClass =
   'h-32 w-32 overflow-hidden rounded-full border border-gray-200 object-cover'
+const changeThemeButtonClass = 'absolute top-[-8px] right-[-8px]'
 const profileTitleClass = 'font-montserrat my-4 text-2xl font-bold'
 const locationClass = 'font-montserrat flex items-center text-gray-500 text-sm'
 
@@ -13,8 +16,17 @@ const Profile: FC = () => {
   return (
     <>
       <div className={profileClass}>
-        <div className={profileImageClass}>
-          <Image src={'/images/img_profile.jpg'} width={128} height={128} alt='profile image' />
+        <div className={profileImageWrapClass}>
+          <div className={profileImageClass}>
+            <Image
+              quality={100}
+              src={'/images/img_profile.jpg'}
+              width={128}
+              height={128}
+              alt='profile image'
+            />
+          </div>
+          <ChangeThemeButton className={changeThemeButtonClass} />
         </div>
         <h1 className={profileTitleClass}>Shinsuke Saito</h1>
         <div className={locationClass}>
